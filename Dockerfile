@@ -1,5 +1,5 @@
-ARG FRM='testdasi/grafana-unraid-stack-base'
-ARG TAG='latest'
+ARG FRM='lukeabell/grafana-unraid-stack-base'
+ARG TAG='0.1'
 
 FROM ${FRM}:${TAG}
 ARG FRM
